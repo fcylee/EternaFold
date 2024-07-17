@@ -41,6 +41,9 @@ const int SHARED_PARAMETER_SIZE = 5000;
 // use caching algorithm for fast helix length scores
 #define FAST_HELIX_LENGTHS                         1
 
+// use double precision for prediction 
+#define USE_DOUBLE_IN_PREDICT                      0
+
 //////////////////////////////////////////////////////////////////////
 // Options related to training mode configuration
 //////////////////////////////////////////////////////////////////////

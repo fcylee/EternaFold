@@ -57,6 +57,13 @@ void RunPredictionFoldChangeMode(const Options &options, const std::vector<FileD
 // default parameters
 #include "Defaults.ipp"
 
+// precision for prediction
+#if USE_DOUBLE_IN_PREDICT
+typedef double pf_type;
+#else
+typedef float pf_type;
+#endif
+
 /////////////////////////////////////////////////////////////////
 // main()
 //
@@ -118,7 +125,7 @@ int main(int argc, char **argv)
     }
     else
     {
-        RunPredictionMode<float>(options, descriptions);
+        RunPredictionMode<pf_type>(options, descriptions);
     }
     
 #ifdef MULTI
