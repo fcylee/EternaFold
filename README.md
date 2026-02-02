@@ -25,7 +25,7 @@ Multithreaded version: run `make multi` in `src`.
 
 Compiled with gcc 4.8.5 and openmpi 2.0.2. 
 
-See instructions in [README_LinearFold-E_patch.md](README_LinearFold-E_patch.md) for using EternaFold parameters with LinearFold and LinearPartition algorithms.
+See instructions in [README_LinearFold-E_patch.md](README_LinearFold-E_patch.md) for using EternaFold parameters with LinearFold, LinearPartition, and LinearSampling algorithms.
 
 ### Prediction
 
